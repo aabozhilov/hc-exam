@@ -1,0 +1,109 @@
+header {
+    opacity: 0.400;
+    width: 1400px;
+    height: 772px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 76%, rgba(0, 0, 0, 0.9999999999999999) 100%);
+    border: 1px solid #000000;
+
+
+}
+
+main {
+    width: 1400px;
+}
+
+section.discover {}
+
+section.platform {}
+
+section.plan {}
+
+section.review {}
+
+/* Explore Section */
+section.explore {
+    width: 1400px;
+    height: 306px;
+    background-color: #ffffff;
+}
+
+div.explore-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+
+    width: 1216px;
+    height: 226px;
+    border-radius: 16px;
+    background-color: #f5f5f5;
+    margin: 0 auto 50px;
+}
+
+p.ready-to-explore {
+    width: 548px;
+    height: 36px;
+    font-size: 28px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "DM Sans";
+    margin: 10px 10px 10px 10px;
+}
+
+p.start-your-journey {
+    width: 548px;
+    height: 46px;
+    font-size: 18px;
+    color: #4f4f53;
+    font-weight: 400;
+    font-family: "DM Sans";
+    margin: 10px 10px 10px 10px;
+}
+
+div.explore-buttons {
+    flex-basis: 50%;
+    align-self: flex-end;
+}
+
+button.learn-more {
+    width: 128px;
+    height: 45px;
+    border-radius: 23px;
+    border: 1px solid #4f4f53;
+    margin-right: 10px;
+}
+
+span.learn-more {
+    font-size: 16px;
+    color: #4f4f53;
+    font-weight: bold;
+    font-family: "DM Sans";
+    /* D MSans in fig file */
+    text-align: center;
+}
+
+button.start-your-adventure {
+    width: 202px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: #000000;
+}
+
+span.start-your-adventure {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "DM Sans";
+    /* D MSans in fig file */
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    width: 1400px;
+    height: 309px;
+    border-radius: 16px;
+    background-color: #000000;
+}
