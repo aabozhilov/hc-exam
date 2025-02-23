@@ -593,3 +593,137 @@ footer {
     border-radius: 16px;
     background-color: #000000;
 }
+
+div.footer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    height: 50px;
+    padding: 30px 0px 0 30px;
+    /* background-color: beige; */
+}
+
+img.sirma {
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-right: auto;
+}
+
+p.stay-up-to-date {
+    width: 440px;
+    height: 26px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "DM Sans";
+    /* D MSans in fig file */
+    margin-right: 35px;
+}
+
+div.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 50px;
+    padding: 30px 0px 0 30px;
+    /* background-color: beige; */
+}
+
+p.we-help {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "DM Sans";
+
+    /* width: 900px; */
+    /* height: 26px; */
+    margin-right: auto;
+}
+
+input.enter-your-email {
+    width: 306px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+
+    /* width: 266px;
+    height: 21px; */
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "DM Sans";
+
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+div.subscribe {
+    width: 118px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+
+span.subscribe {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "DM Sans";
+    /* D MSans in fig file */
+    text-align: center;
+    margin-left: 19px;
+}
+
+div.footer3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1400px;
+    height: 50px;
+    padding: 30px 0px 0 30px;
+    margin-bottom: 50px;
+    gap: 10px;
+
+    /* background-color: beige; */
+}
+
+a.link {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "DM Sans";
+    text-decoration: none;
+}
+
+div.footer4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 1338px;
+    height: 53px;
+    border: 1px solid #4f4f53;
+    gap: 10px;
+    margin-left: 30px;
+    /* padding: 30px 0px 0 30px; */
+    /* background-color: beige; */
+}
+
+p.all-rights-reserved {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "DM Sans";
+    /* width: 1050px; */
+    margin-right: auto;
+    /* margin-right: 20px; */
+}
