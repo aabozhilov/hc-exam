@@ -56,7 +56,7 @@ p.discover-description {
     font-weight: 400;
     font-family: "DM Sans";
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 div.discover-img-container {
@@ -103,8 +103,8 @@ section.platform {
     flex-wrap: wrap;
     justify-content: center;
     /* background-color: aqua; */
-    height: 500px;
-    margin-left: 20px;
+    height: 520px;
+    margin: 0 0 100px 40px;
 }
 
 p.platform-title {
@@ -115,6 +115,7 @@ p.platform-title {
     color: #000000;
     font-weight: 500;
     font-family: "DM Sans";
+    margin-bottom: 20px;
 }
 
 p.platform-description {
@@ -124,6 +125,7 @@ p.platform-description {
     color: #4f4f53;
     font-weight: 400;
     font-family: "DM Sans";
+    margin-bottom: 40px;
 }
 
 div.platform-container {
@@ -149,7 +151,7 @@ img.icon {
     /* height: 30px; */
     /* border-radius: 9px; */
     margin: 15px 15px;
-    
+
     /* background-color: #000000; */
 }
 
@@ -176,7 +178,7 @@ div.book-your-spot {
     height: 45px;
     border-radius: 23px;
     background-color: #000000;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding-top: 10px;
 }
 
@@ -201,7 +203,7 @@ section.plan {
     width: 1400px;
     height: 737px;
     /* 542px in fig file */
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     /* background-color: aqua; */
 }
 
@@ -342,7 +344,82 @@ span.explore-more {
     margin-left: 19px;
 }
 
-section.review {}
+/* Review section */
+section.review {
+    /* background-color: aqua; */
+    height: 500px;
+    margin: 0 0 100px 20px;
+}
+
+p.review-heading {
+    width: 720px;
+    height: 96px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "DM Sans";
+    text-align: center;
+    margin: 0 0 40px 300px;
+}
+
+div.review-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1300px;
+    height: 400px;
+    /* margin: 0 0 0 0; */
+}
+
+div.review-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 388px;
+    border-radius: 16px;
+    /* background-color: #000000; */
+    border: 1px solid #e5e5e5;
+    /* padding-left: 20px; */
+    padding: 20px 20px 40px 30px;
+}
+
+p.review-text {
+    width: 336px;
+    height: 180px;
+    font-size: 28px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "DM Sans";
+    margin-bottom: 40px;
+}
+
+img.small {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+
+p.review-name {
+    width: 161px;
+    height: 26px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "DM Sans";
+    /* D MSans in fig file */
+}
+
+p.review-title {
+    width: 192px;
+    height: 21px;
+    font-size: 16px;
+    color: #4f4f53;
+    font-weight: 400;
+    font-family: "DM Sans";
+}
 
 /* Explore Section */
 section.explore {
